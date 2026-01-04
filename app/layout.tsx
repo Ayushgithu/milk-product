@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "./(landing-page)/footer/page";
+import Navbar from "./(landing-page)/navbar/page";
+import NextTopLoader from 'nextjs-toploader';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +30,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-900 selection:text-white scroll-smooth">
+          <NextTopLoader />
+          {/* Navigation */}
+          <Navbar />
+          {children}
+          {/* footer */}
+          <Footer />
+        </div>
+     
       </body>
     </html>
   );
