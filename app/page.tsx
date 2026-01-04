@@ -466,6 +466,7 @@ export default function App() {
                         </div>
                     </details>
                      {/* Q2 */}
+                     
                     <details className="group bg-white rounded-2xl shadow-sm border border-slate-200 open:border-orange-400 transition-all">
                         <summary className="flex cursor-pointer items-center justify-between p-6 text-slate-900 font-bold text-lg list-none [&::-webkit-details-marker]:hidden">
                             <span>Are you certified for export to MENA/EU regions?</span>
