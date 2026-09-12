@@ -38,7 +38,7 @@ const Navbar = () => {
             >
               <Logo className="h-10 w-10 mr-3 drop-shadow-sm" />
               <span className="font-black text-xl tracking-tighter text-slate-900">
-                Gangey Amrit<span className="text-orange-600">.</span>
+                Ganga Amrit<span className="text-orange-600">.</span>
               </span>
             </motion.div>
           </Link>
