@@ -189,67 +189,82 @@ const CONTENT: Record<
     ctaText: 'Reach out for distributorship, bulk supply, or retail stocking.',
     ctaButton: 'Talk to our team',
   },
-  hi: {
-    heroTitle: 'Ganga Amrit',
-    heroTitleAccent: 'शुद्धता का वादा',
-    heroSubtitle:
-      'Chhatarpur se shuru hui ek aisi journey, jiska maksad sirf doodh dena nahi, balki har ghar tak shuddhta, freshness aur bharose ka ehsaas pahunchana hai.',
-    storyEyebrow: 'Hamari Kahani',
-    storyHeading: 'Ganga Amrit ki shuruaat, Chhatarpur ke apne logon ke liye.',
-    storyP1a: 'Ganga Amrit ki shuruaat 3 September 2026 ko Founder',
-    storyFounder: 'Deepansh Gupta',
-    storyP1b:
-      ', Chhatarpur ke hi ek apne shehar ke sapne ke saath hui — Chhatarpur ka apna pehla milk packet brand khada karna, jo apne logon ke liye quality aur purity ki ek nayi pehchaan ban sake.',
-    storyP2: 'Hamare liye shuddhta sirf ek word nahi, ek zimmedari hai.',
-    farmersEyebrow: 'Hamare Farmers',
-    farmersHeading: 'Local Farmers se Aapke Ghar Tak.',
-    farmersP1:
-      'Ganga Amrit mein milk ko local farmers se directly collect kiya jata hai. Farmers ke saath transparency, fair pricing aur regular milk procurement ke saath ek strong aur trustworthy relationship banane par hum vishwas karte hain. Saath hi, farmers aur dairy farms ko milk ki freshness aur quality maintain karne ke liye zaroori guidance aur support dene ka bhi focus hai.',
-    farmersP2:
-      'Hamara maksad ek transparent ecosystem banana hai, jahan farmers, dairy farms aur consumers saath mein aage badhein.',
-    qualityEyebrow: 'Har Stage Par Quality',
-    qualityHeading: 'Shuddhta shuru hoti hai source se hi.',
-    qualityP:
-      'Plant par milk ko production se pehle quality testing, chilling, pasteurization aur hygienic processing se guzara jata hai. Hamare modern setup mein milk testing laboratory, BMC, pasteurization system, automatic packing machine, cold storage aur stainless-steel processing equipment ke saath dedicated Quality Control Team kaam karti hai. Har product ko market mein bhejne se pehle quality checks se guzara jata hai. Purity, freshness aur hygiene ko har stage par priority di jaati hai.',
-    socialEyebrow: 'Hamari Samajik Zimmedari',
-    socialHeading: 'Empowering Local Families',
-    socialP1:
-      'Ganga Amrit sirf ek vyapar nahi, balki apne shehar ko aage badhane ka ek prayas hai. Hum apne shehar ke mahilaon aur purushon ko sthaniya star par sammanjanak rozgar ke avsar dene ke liye committed hain.',
-    socialP2:
-      'Hamara vishwas hai ki jab har parivar ke paas ek sthir aamdani hogi, tabhi unke bacchon ko behtar shiksha aur ek sunahra bhavishya mil sakega. Har packet ke peeche shuddhta ke saath-saath apne shehar ke parivaron ko aatmanirbhar banane aur agli peedhi ki padhai ko naye pankh dene ka sankalp juda hai.',
-    mvvHeading: 'Ek Maksad Ke Saath.',
-    mvvSub: 'Yehi usool har packet mein jhalakte hain.',
-    missionTitle: 'Hamara Mission',
-    missionText:
-      'Aisa doodh banana jo Chhatarpur ke har ghar ke liye freshness, purity, quality aur bharose ki pehchaan bane.',
-    visionTitle: 'Hamara Vision',
-    visionText:
-      'Hamara vision simple hai — Chhatarpur se shuruaat karke poore region ka ek trusted milk brand banna. Aane wale samay mein hum Ganga Amrit ke saath kai naye dairy products lekar aana chahte hain, lekin ek cheez hamesha same rahegi — quality se koi compromise nahi.',
-    valuesTitle: 'Hamare Values',
-    values: [
-      { k: 'Purity', v: 'Kabhi compromise nahi, kabhi nahi.' },
-      { k: 'Transparency', v: 'Farmers aur families, dono ke saath fair.' },
-      { k: 'Freshness', v: 'Collection se pouch tak, fast.' },
-      { k: 'Trust', v: 'Har din, wahi vaada.' },
-    ],
-    productsHeading: 'Hamare Products',
-    productsFooter: 'Aur ye sirf shuruaat hai.',
-    certHeading: 'Certified & Trusted.',
-    cert1Title: 'Quality Tested',
-    cert1Text: 'Hamari quality control team dwara daily testing.',
-    cert2Title: 'Hygiene Standards',
-    cert2Text: 'Hygiene aur process controls, roz follow kiye jaate hain.',
-    promiseHeading: 'GANGA AMRIT — शुद्धता का वादा',
-    promiseP1:
-      'Chhatarpur ke aas-paas ke farms se lekar hamari community ke gharon tak, hum purity, freshness aur care ke saath doodh pahunchane ke liye committed hain.',
-    promiseP2: 'Aaj hum Chhatarpur ke apne logon ke liye shuru hue hain. Kal isi bharose ko poore region tak le jaana hai.',
-    promiseP3:
-      'Because for us, every packet is more than milk — it is a promise of purity, freshness, trust, and a brighter tomorrow for our community.',
-    ctaHeading: 'Ganga Amrit stock karna chahte hain?',
-    ctaText: 'Distributorship, bulk supply, ya retail stocking ke liye humse sampark karein.',
-    ctaButton: 'Hamari team se baat karein',
-  },
-};
+hi: {
+  heroTitle: 'Ganga Amrit',
+  heroTitleAccent: 'शुद्धता का वादा',
+  heroSubtitle:
+    'छतरपुर से शुरू हुई एक ऐसी यात्रा, जिसका उद्देश्य सिर्फ दूध देना नहीं, बल्कि हर घर तक शुद्धता, ताजगी और भरोसे का एहसास पहुँचाना है।',
+
+  storyEyebrow: 'हमारी कहानी',
+  storyHeading: 'Ganga Amrit की शुरुआत, छतरपुर के अपने लोगों के लिए।',
+  storyP1a: 'Ganga Amrit की शुरुआत 3 September 2026 को Founder',
+  storyFounder: 'Deepansh Gupta',
+  storyP1b:
+    ', छतरपुर के ही एक व्यक्ति के अपने शहर के सपने के साथ हुई — छतरपुर का अपना पहला milk packet brand खड़ा करना, जो अपने लोगों के लिए quality और purity की एक नई पहचान बन सके।',
+  storyP2: 'हमारे लिए शुद्धता सिर्फ एक शब्द नहीं, बल्कि एक जिम्मेदारी है।',
+
+  farmersEyebrow: 'हमारे किसान',
+  farmersHeading: 'स्थानीय किसानों से आपके घर तक।',
+  farmersP1:
+    'Ganga Amrit में दूध स्थानीय किसानों से सीधे एकत्र किया जाता है। किसानों के साथ पारदर्शिता, उचित मूल्य और नियमित दूध खरीद के माध्यम से एक मजबूत और भरोसेमंद संबंध बनाने पर हम विश्वास करते हैं। साथ ही, किसानों और dairy farms को दूध की ताजगी और गुणवत्ता बनाए रखने के लिए आवश्यक मार्गदर्शन और सहयोग देने पर भी हमारा ध्यान है।',
+  farmersP2:
+    'हमारा उद्देश्य एक ऐसी पारदर्शी व्यवस्था बनाना है, जहाँ किसान, dairy farms और consumers साथ मिलकर आगे बढ़ें।',
+
+  qualityEyebrow: 'हर चरण पर गुणवत्ता',
+  qualityHeading: 'शुद्धता की शुरुआत स्रोत से ही होती है।',
+  qualityP:
+    'Plant पर दूध को production से पहले quality testing, chilling, pasteurization और hygienic processing की प्रक्रिया से गुजारा जाता है। हमारे modern setup में milk testing laboratory, BMC, pasteurization system, automatic packing machine, cold storage और stainless-steel processing equipment के साथ dedicated Quality Control Team काम करती है। हर product को market में भेजने से पहले quality checks से गुजारा जाता है। Purity, freshness और hygiene को हर चरण पर प्राथमिकता दी जाती है।',
+
+  socialEyebrow: 'हमारी सामाजिक जिम्मेदारी',
+  socialHeading: 'स्थानीय परिवारों को सशक्त बनाना',
+  socialP1:
+    'Ganga Amrit सिर्फ एक व्यवसाय नहीं, बल्कि अपने शहर को आगे बढ़ाने का एक प्रयास है। हम अपने शहर की महिलाओं और पुरुषों को स्थानीय स्तर पर सम्मानजनक रोजगार के अवसर देने के लिए प्रतिबद्ध हैं।',
+  socialP2:
+    'हमारा विश्वास है कि जब हर परिवार के पास एक स्थिर आय होगी, तभी उनके बच्चों को बेहतर शिक्षा और एक सुनहरा भविष्य मिल सकेगा। हर packet के पीछे शुद्धता के साथ-साथ अपने शहर के परिवारों को आत्मनिर्भर बनाने और अगली पीढ़ी की शिक्षा को नए पंख देने का संकल्प जुड़ा है।',
+
+  mvvHeading: 'एक उद्देश्य के साथ।',
+  mvvSub: 'यही सिद्धांत हमारे हर packet में दिखाई देते हैं।',
+
+  missionTitle: 'हमारा मिशन',
+  missionText:
+    'ऐसा दूध उपलब्ध कराना जो छतरपुर के हर घर के लिए ताजगी, शुद्धता, गुणवत्ता और भरोसे की पहचान बने।',
+
+  visionTitle: 'हमारा विज़न',
+  visionText:
+    'हमारा विज़न सरल है — छतरपुर से शुरुआत करके पूरे क्षेत्र का एक trusted milk brand बनना। आने वाले समय में हम Ganga Amrit के साथ कई नए dairy products लेकर आना चाहते हैं, लेकिन एक चीज़ हमेशा समान रहेगी — quality से कोई compromise नहीं।',
+
+  valuesTitle: 'हमारे मूल्य',
+  values: [
+    { k: 'Purity', v: 'कभी समझौता नहीं, कभी नहीं।' },
+    { k: 'Transparency', v: 'किसानों और परिवारों, दोनों के साथ उचित व्यवहार।' },
+    { k: 'Freshness', v: 'Collection से pouch तक, तेज़ प्रक्रिया।' },
+    { k: 'Trust', v: 'हर दिन, वही वादा।' },
+  ],
+
+  productsHeading: 'हमारे Products',
+  productsFooter: 'और यह सिर्फ शुरुआत है।',
+
+  certHeading: 'प्रमाणित और भरोसेमंद।',
+  cert1Title: 'गुणवत्ता की जाँच',
+  cert1Text: 'हमारी Quality Control Team द्वारा प्रतिदिन परीक्षण।',
+  cert2Title: 'स्वच्छता के मानक',
+  cert2Text: 'स्वच्छता और प्रक्रिया से जुड़े मानकों का प्रतिदिन पालन किया जाता है।',
+
+  promiseHeading: 'GANGA AMRIT — शुद्धता का वादा',
+  promiseP1:
+    'छतरपुर के आसपास के farms से लेकर हमारे समुदाय के घरों तक, हम शुद्धता, ताजगी और देखभाल के साथ दूध पहुँचाने के लिए प्रतिबद्ध हैं।',
+  promiseP2:
+    'आज हम छतरपुर के अपने लोगों के लिए शुरू हुए हैं। कल इसी भरोसे को पूरे क्षेत्र तक ले जाना है।',
+  promiseP3:
+    'क्योंकि हमारे लिए हर packet सिर्फ दूध से बढ़कर है — यह शुद्धता, ताजगी, भरोसे और हमारे समुदाय के उज्ज्वल कल का वादा है।',
+
+  ctaHeading: 'Ganga Amrit का stock रखना चाहते हैं?',
+  ctaText:
+    'Distributorship, bulk supply या retail stocking के लिए हमसे संपर्क करें।',
+  ctaButton: 'हमारी टीम से बात करें',
+},
+
+
 
 export default function AboutClient() {
   const [lang, setLang] = useState<Lang>('en');
@@ -279,7 +294,7 @@ export default function AboutClient() {
                   className="absolute inset-0 -z-10 rounded-full bg-orange-600"
                 />
               )}
-              {option === 'en' ? 'English' : 'हिंग्लिश'}
+              {option === 'en' ? 'English' : 'हिंदी'}
             </button>
           ))}
         </div>
