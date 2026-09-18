@@ -1,32 +1,14 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://www.gangaamrit.co.in";
+// TODO: update this once you have your real production domain
+const BASE_URL = "https://gangaamrit.in";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: BASE_URL,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1.0,
-    },
-    {
-      url: `${BASE_URL}/products`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.9,
-    },
-    {
-      url: `${BASE_URL}/about`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.7,
-    },
-    {
-      url: `${BASE_URL}/contact`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-  ];
+  const routes = ["", "/products", "/about", "/contact", "/faq", "/terms", "/privacy-policy"];
+  return routes.map((route) => ({
+    url: `${BASE_URL}${route}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: route === "" ? 1 : 0.7,
+  }));
 }
